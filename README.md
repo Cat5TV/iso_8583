@@ -1,2 +1,7 @@
-# iso_8583
-PHP - Work with ISO_8583 codes
+# montrans
+
+Translate common response codes from the API response to plain English text.
+
+Currently supports:
+- getISO()
+- getCardType()
