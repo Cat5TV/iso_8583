@@ -2,7 +2,6 @@
 /*
 	Translate Moneris responses to their English long form.
 	For use with the Moneris Gateway Unified API, and expects you already know how to use that API.
-	By Robbie Ferguson ... http://baldnerd.com
 */
   function montrans($type,$code) {
 	  
@@ -252,7 +251,7 @@
 						$resp = 'Unable to go online';
 						break;
 					default:
-						$resp = 'Unknown response received.';
+						$resp = 'Unknown response received: ' . $code . '.';
 						break;
 				}
 				break;
