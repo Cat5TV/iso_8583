@@ -263,4 +263,23 @@
 			
 		return $resp;
 	}
+
+
+	/*
+	  The Moneris API (1.0.0) returns a string with the text "null" instead of an actual null value.
+	  Wrapping your query in this function will correctly return null values instead of "null".
+	  Usage: null2null($mpgResponse->getCardType())
+	*/
+	function null2null($data) {
+		if ($data == 'null') {
+			return(null);
+		} elseif ($data == 'false') {
+		  return(false);	
+		} else {
+			return($data);
+		}
+	}
+
+
+
 ?>
