@@ -1,6 +1,6 @@
 # montrans
 
-Translate common response codes from the API response to plain English text.
+Translate common response codes from the Moneris Payment Processor API response to plain English text.
 
 Currently supports:
 - getISO()
