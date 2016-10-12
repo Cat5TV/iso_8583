@@ -4,7 +4,7 @@
 	For use with the Moneris Gateway Unified API, and expects you already know how to use that API.
 	By Robbie Ferguson ... http://baldnerd.com
 */
-  function montran($type,$code) {
+  function montrans($type,$code) {
 	  
 	  switch ($type) {
 			
